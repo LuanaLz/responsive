@@ -1,0 +1,245 @@
+body{
+   margin: 0;
+   font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+   font-size: 14px;
+}
+nav {
+	right:25%;
+}
+.menu {
+	margin-top:5%;
+}
+p{
+	font-size: 24px;
+}
+
+.status {
+	font-size: 17px;
+}
+main{
+   display: flex;
+    height: 60%;
+    background-color: #fafafa;
+    order: 4;
+    align-items: stretch;
+   
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+	width: 100%;
+	height: 387px;
+	
+}
+
+.form-perfil {
+	
+	display:flex;
+    width: 85%;
+
+    padding-left: 200px;
+	
+}
+.perfil-imagem{
+    flex-shrink: 0;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+	width:400px;
+	right: 100px;
+	padding-left: 150px;
+	
+}
+.foto-perfil {
+	width: 280px;
+	right: 280px;
+	padding-left: 100px;
+	padding-top: 30px;
+	
+}
+
+section {
+	color: #262626;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	padding-top: 55px;
+	line-height: 0.5;
+	padding-left: 25px;
+
+}
+.perfil-name {
+	display: flex;
+	width: 500px;
+}
+button {
+	height: 30px;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 10px;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	 padding: 6px 0px;
+	 background-color: #974caf; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   
+    border-radius: 15px;
+    margin: 14px 18px;
+    cursor: pointer;
+}
+.div-pub {
+	display: flex;
+	width: 500px;
+}
+.perfil-pub {
+	margin: 5px;
+}
+.opcao {
+	color: #262626;
+	position: relative;
+	padding-top: 325px;
+	padding-left: 515px;
+	border-style: outset;
+}
+.categoria{
+	display: flex;
+	
+}
+.cat {
+	margin-right: 48px;
+}
+.menu {
+	display: flex;
+	margin: 8px;
+}
+.logo_marca {
+	padding-top: 10px;
+}
+.logo {
+	padding-left: 150px;
+	display: flex;
+}
+.nome_marca {
+	padding-top: 20px;
+}
+.busca {
+	padding-left: 350px;
+	padding-top: 11px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.icones {
+	padding-left: 300px;
+	display: flex;
+	margin-left: 35px;
+	
+}
+.coluna{
+	width: 23%;
+  
+
+  
+}
+
+.grid-container{
+    height: 72%;
+    padding-top: 50px;
+	width: 90%;
+}
+.espaco1  {
+	display: flex;
+}
+.grid {
+  grid-rows: 50vh repeat(4, 1fr);
+  grid-columns: repeat(4, 1fr);
+  height: 100vh;
+  margin: 0;
+}
+.grid-item {
+	 display: flex;
+     height:48%;
+	padding-left: 220px;
+	margin: 20px;
+}
+
+@media only screen and ( max-width: 1000px){
+	main{
+		padding-left: 50px;
+		width: calc (40% - 40px);
+		box-sizing: content-box;
+		background-color: white;
+	}
+	.opcao{
+		 list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+	section {
+		 padding: 15px;
+		height: calc (40% - 40px);
+		box-sizing: content-box;
+	}
+	nav {
+		 
+    color: #ffffff;
+    padding: 15px;
+	}
+	.logo{
+		padding: 15px;
+	}
+	.busca {
+		padding-left: 15px;
+	}
+	.icones {
+		padding-left: 15px;
+	}
+	.categoria{
+		padding: 15px;
+	}
+	.perfil-nome {
+		padding-left: 50px;
+	}
+	.perfil-descricao{
+		padding-left: 50px;
+	}
+	.div-pub {
+		padding-left: 50px;
+	}
+	.grid-item {
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+	.grid-container{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+	.coluna{
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+	.form-imagem{
+		list-style-type: none;
+    margin: 0;
+    padding: 0;
+	}
+}
